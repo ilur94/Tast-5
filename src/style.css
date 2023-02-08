@@ -73,7 +73,7 @@ header{
     letter-spacing: -1px;
     color: #2F2E41;
 }
-.header-p{
+.paragraph{
     width: 489px;
     height: 102px;
     font-family: 'Open Sans';
@@ -82,4 +82,43 @@ header{
     font-size: 20px;
     line-height: 34px;
     color: #9893A3;
+}
+.logo-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 97px;
+    width: 900px;
+    height: 35.42px;
+    margin: 40px;
+    margin-left: 200px;
+}
+.image-sec2{
+    width: 600px;
+    height: 442.78px;
+    margin-top: 350px;
+}
+.header-2{
+    
+    width: 400px;
+    height: 128px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+
+    margin-top: 400px;
+    letter-spacing: -1px;
+}
+.sec-3{
+    margin-top: 350px;
+}
+.sec3-image{
+    width: 600px;
+    height: 497.19px;
+    left: 1180px;
+    top: 0px;
 }
