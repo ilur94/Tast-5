@@ -126,3 +126,12 @@ header{
     font-size: 64px;
     text-align: center;
 }
+.absolute{
+    position: relative;
+    right: 1182px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3c35b9;
+}
