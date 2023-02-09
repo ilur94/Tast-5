@@ -135,3 +135,82 @@ header{
     font-size: 18px;
     color: #3c35b9;
 }
+.pricing_card{
+    width: 363px;
+    height: 421px;
+    background: rgba(236, 235, 255, 0.3);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 46px 88px;
+    gap: 30px;
+    list-style: none;
+    color: #717082;
+}
+.col-9{
+    width: 30%;
+    width: 1280px;
+    margin: 0 auto;
+}
+.box_pricing{
+    padding: 46px 88px;
+}
+.pricing_card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 88px;
+    gap: 40px;
+    width: 363px;
+    height: 502px;
+    background: #6C63FF;
+    border-radius: 2px;
+    list-style: none;
+}
+.list{
+    width: 104px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #2F2E41;
+
+}
+.list-2{
+    width: 149px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 80px;
+}
+.list-3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    text-align: center;
+    color: #2F2E41;
+}
+.btn_price{
+    width: 140px;
+    height: 51px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    color: blue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    
+}
+.btn-2{
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
