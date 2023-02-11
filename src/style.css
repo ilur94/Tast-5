@@ -1,11 +1,12 @@
 
 nav{
-    width: 1280px;
+    width: 1180px;
     margin: 0 auto;
 }
 .box-layout{
-    width: 1280px;
+    width: 1180px;
     margin: 0 auto;
+    flex-wrap: wrap;
    
 }
 .mt220{
@@ -18,6 +19,7 @@ ul{
 .container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 img{
@@ -39,10 +41,10 @@ header{
     padding-bottom: 100px;
 }
     
-.box_layout_1{
+/* .box_layout_1{
         width: 1280px;
         margin: 0 auto;
-    }
+    } */
 .blog_btn{
     margin-top: 40px;
 }    
@@ -94,8 +96,20 @@ header{
     line-height: 34px;
     color: #9893A3;
 }
+.col-2{
+    width: 20%;
+}
+.clients_image{
+    width: 50%;
+}
+.clietns{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 68px;
+
+}
 .logo-2{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -104,7 +118,10 @@ header{
     width: 900px;
     height: 35.42px;
     margin: 40px;
-    margin-left: 200px;
+    margin-left: 200px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .image-sec2{
     width: 600px;
@@ -137,17 +154,9 @@ header{
     font-size: 64px;
     text-align: center;
 }
-.absolute{
-    position: relative;
-    right: 1182px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    color: #3c35b9;
-}
+
 .col-4{
-    width: 30%;
+    width: 28%;
 }
 .starter{
     align-items: center;
@@ -159,6 +168,8 @@ header{
     padding-top: 46px;
     padding-bottom: 66px;
     display: flex;
+    width: 363px;
+    height: 421px;
 }
 .pricing_btn{
     width: 140px;
@@ -270,9 +281,8 @@ header{
     margin-top: 68px;
     background-color: #2F2E41;
     width: 900px;
-    height: 296px;
-    left: 270px;
-    top: 4527.47px;
+    /* height: 296px; */
+    
 }
 .lets_talk_btn{
     margin-top: 84px;
@@ -309,6 +319,7 @@ header{
 }
 .footer-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 footer{
     background-color: rgba(236, 235, 255, 0.6);
@@ -325,6 +336,7 @@ footer{
 }
 .mt-footer{
     margin-top: 68px;
+    
 }
 .copyright-container{
     padding-top: 40px;
@@ -334,9 +346,43 @@ footer{
 }
 .footer_logo{
     width: 120px;
-height: 32px;
-left: 780px;
-top: 44px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 
 }
+@media only screen and (max-width: 600px) {
+    .header_nav{
+        display: none;
+    }
+    .box-layout{
+    width: auto;
+    }
+    .container{
+        width:auto ;
+    }
+    .mt-footer{
+        width: 100%;
+        display: flex;
+    }
+    .logo-2{
+    width: auto;
+    }
+    .col-12{
+        width:100%;
+    }
+    .footer_conteiner{
+        padding: 0px;
+    }
+    .col-xs-6{
+        width: 50%;
+    }
+  .col-2{
+    width: 33.33%;
+   }
+   .clietns{
+    width: 100%;
+   }
+    
