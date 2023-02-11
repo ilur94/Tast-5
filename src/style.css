@@ -3,11 +3,19 @@ nav{
     width: 1180px;
     margin: 0 auto;
 }
+li{
+    font: aldrich;
+}
 .box-layout{
     width: 1180px;
     margin: 0 auto;
     flex-wrap: wrap;
    
+}
+.burger_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .mt220{
     margin-top: 220px;
@@ -27,7 +35,8 @@ img{
 }
 .logo{
     width: 78.08px;
-    height: 28.49px;    
+    height: 28.49px;   
+     
 }
 .header_nav{
     list-style: none;
@@ -350,11 +359,15 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
-
+}
+.mobile_menu{
+    display: none;
 }
 @media only screen and (max-width: 600px) {
-    .header_nav{
+    .mobile_menu{
+        display: block;
+    }
+    .nav_header{
         display: none;
     }
     .box-layout{
@@ -385,4 +398,5 @@ footer{
    .clietns{
     width: 100%;
    }
+}
     
