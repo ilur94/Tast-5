@@ -183,6 +183,7 @@ header{
 .pricing_btn{
     width: 140px;
     height: 51px;
+
 }
 .premium_btn{
     display: flex;
@@ -341,7 +342,7 @@ footer{
     padding-bottom: 40px;
     padding-left: 270px;
     padding-right: 270px;
-
+    
 }
 .mt-footer{
     margin-top: 68px;
@@ -353,6 +354,11 @@ footer{
     width: 60px;
     height: 23.3px;
 }
+.footer_between{
+    justify-content: space-between;
+    display: flex;
+    width: auto;
+}
 .footer_logo{
     width: 120px;
     height: 32px;
@@ -363,7 +369,10 @@ footer{
 .menu_mobile{
     display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
     .menu_mobile{
         display: block;
     }
@@ -374,7 +383,7 @@ footer{
     width: auto;
     }
     .container{
-        width:auto ;
+        width: auto ;
     }
     .mt-footer{
         width: 100%;
@@ -384,19 +393,86 @@ footer{
     width: auto;
     }
     .col-12{
-        width:100%;
+        width:50%;
     }
     .footer_conteiner{
-        padding: 0px;
+        padding: 50%;
     }
+    
     .col-xs-6{
         width: 50%;
     }
-  .col-2{
+    .col-2{
     width: 33.33%;
    }
-   .clietns{
+    .clietns{
+        width: 388px;
+        height: 95px;
+   }
+   .col-6{
     width: 100%;
    }
+   .image-sec2{
+    width: 388px;
+    height: 283px;
+   }
+   .menu_mobile{
+    width: 388px;
+    height: 52.49px;
+   }
+   .hero-image{
+    width: 388px;
+    height: 339px;
+   }
+   .sec3-image{
+    width: 388px;
+    height: 322.88px;
+   }
+   .image-sec4{
+    width: 388px;
+    height: 262.6px;
+   }
+   .footer_conteiner{
+    padding: 0;
+  
+   }
+   
 }
-    
+@media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .menu_mobile{
+        display: block;
+    }
+    .nav_header{
+        display: none;
+    }
+        .box-layout{
+        width: auto;
+    }
+    .container{
+        width: auto ;
+    }
+    .clietns{
+        width: 100%;
+    }
+    .col-12{
+        width: 100%;
+    }
+    .footer_conteiner{
+        padding: 15%;
+    }
+    .col-xs-6{
+        width: 25%;
+    }
+  
+
+
+}
+
+
+
+
+
+
