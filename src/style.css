@@ -416,10 +416,10 @@ footer{
     width: 388px;
     height: 283px;
    }
-   .menu_mobile{
+   /* .menu_mobile{
     width: 388px;
     height: 52.49px;
-   }
+   } */
    .hero-image{
     width: 388px;
     height: 339px;
@@ -461,10 +461,10 @@ footer{
         width: 100%;
     }
     .footer_conteiner{
-        padding: 15%;
+        padding: 0%;
     }
     .col-xs-6{
-        width: 25%;
+        width: 50%;
     }
   
 
